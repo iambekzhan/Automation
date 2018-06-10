@@ -27,12 +27,12 @@ public class Selenium {
 			System.out.println("Title verification is failed");
 		}
 		
-		Random r = new Random();
-		int a = r.nextInt(1000000);
+		Random random = new Random();
+		int randomNumbers = random.nextInt(1000000);
 		
 		String firstName = "John";
 		String lastName = "Wick";
-		String email = "jw" + a +"@gmail.com";
+		String email = "jw" + randomNumbers +"@gmail.com";
 		String password = "johnw234";
 		
 		String url1 = driver.getCurrentUrl();
